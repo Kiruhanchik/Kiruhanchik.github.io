@@ -1,0 +1,396 @@
+
+.Tasks {
+  background: white
+}
+
+.Individ1 {
+  margin-top: 3%;
+  margin-bottom: 2%;
+  border-bottom: 3px solid black;
+  padding-bottom: 2%;
+  width: 35%;
+  box-shadow: 10px 5px 15px rgb(114, 114, 114);
+  margin-left: 5%;
+  background-color: rgb(255, 230, 0);
+  padding-top: 1%;
+}
+
+.Individ1 h3 {
+  color: black;
+  margin-left: 5%;
+}
+
+.Individ1 p {
+  margin-left: 5%;
+}
+
+.Individ1 input {
+  background-color: beige;
+  padding: 0.3%;
+  border-radius: 40px;
+  margin-right: 1%;
+  margin-top: 1%;
+  width: 30%;
+  margin-left: 5%;
+}
+
+.Individ1 button {
+  display: block;
+  margin-top: 2%;
+  padding: 0.5%;
+  background-color: coral;
+  border-color: coral;
+  border-radius: 40px;
+  margin-bottom: 1%;
+  transition: 0.3s;
+  margin-left: 5%;
+}
+
+.Individ1 button:hover {
+  background-color: rgb(17, 226, 34);
+  border-color: rgb(17, 226, 34);
+}
+
+.Individ2 {
+  margin-top: 3%;
+  margin-bottom: 2%;
+  border-bottom: 3px solid black;
+  padding-bottom: 2%;
+  width: 35%;
+  box-shadow: 10px 5px 15px rgb(114, 114, 114);
+  margin-left: 5%;
+  background-color: rgb(19, 177, 53);
+  padding-top: 1%;
+} 
+
+.Individ2 h3 {
+  margin-left: 5%;
+}
+
+.Individ2 input {
+  background-color: beige;
+  padding: 0.3%;
+  border-radius: 40px;
+  margin-right: 1%;
+  margin-top: 1%;
+  margin-left: 5%;
+}
+
+.Individ2 button {
+  display: block;
+  margin-top: 2%;
+  padding: 0.5%;
+  background-color: coral;
+  border-color: coral;
+  border-radius: 40px;
+  margin-bottom: 1%;
+  transition: 0.3s;
+  margin-left: 5%;
+}
+
+.Individ2 button:hover {
+  background-color: rgb(17, 226, 34);
+  border-color: rgb(17, 226, 34);
+}
+
+.Individ3 {
+  margin-top: 3%;
+  margin-bottom: 2%;
+  border-bottom: 3px solid black;
+  padding-bottom: 2%;
+  width: 35%;
+  box-shadow: 10px 5px 15px rgb(114, 114, 114);
+  margin-left: 5%;
+  background-color: rgb(178, 178, 254);
+  padding-top: 1%;
+}
+
+.Individ3 h3 {
+  margin-left: 5%;
+}
+
+.Individ3 input {
+  background-color: beige;
+  padding: 0.3%;
+  border-radius: 40px;
+  margin-right: 1%;
+  margin-top: 1%;
+  margin-left: 5%;
+}
+
+.Individ3 button {
+  display: block;
+  margin-top: 2%;
+  padding: 0.5%;
+  background-color: coral;
+  border-color: coral;
+  border-radius: 40px;
+  margin-bottom: 1%;
+  transition: 0.3s;
+  margin-left: 5%;
+}
+
+.Individ3 button:hover {
+  background-color: rgb(17, 226, 34);
+  border-color: rgb(17, 226, 34);
+}
+
+.Individ4 {
+  margin-top: 3%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  background-color: #FFE53B;
+  background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
+  width: 90%;
+  box-shadow: 10px 5px 15px rgb(114, 114, 114);
+}
+
+.Individ4 p {
+  width: 30%;
+  margin-top: 1%;
+  margin-left: 3%;
+}
+
+.Switch {
+  font-size: 100%;
+  margin-top: 3%;
+  background-color: rgb(202, 202, 202);
+  margin-left: 3%;
+}
+
+.Individ4 h3 {
+  color: black;
+  margin-bottom: 2%;
+  margin-left: 3%;
+}
+
+.result {
+  display: block;
+  background-color: aquamarine;
+  padding: 1%;  
+  font-size: 110%;
+  padding-left: 10%;
+  padding-right: 10%;
+  border: 1.5px solid black;
+  width: 8%;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+.operations {
+  display: grid;
+  grid-template-columns: 5% 5% 5% 5%;
+  grid-template-rows: auto auto auto auto;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+.operations button{
+  width: 50%;
+  height: 30px;
+  margin-top: 10%;
+  background-color: cornflowerblue;
+  margin-right: 1%;
+  transition: 0.3s;
+} 
+
+.operations button:hover {
+  background-color: coral;
+}
+
+.getResult {
+  margin-top: 3%;
+  padding: 0.5%;
+  background-color: orange;
+  margin-left: 3%;
+}
+
+.Individ5 {
+  margin-top: 3%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  padding-top: 2%;
+  width: 50%;
+  background-color: lightcyan;
+  box-shadow: 10px 5px 15px rgb(114, 114, 114);
+  padding-bottom: 2%;
+}
+
+.Individ5 h3 {
+  color: black;
+  margin-bottom: 2%;
+  margin-left: 5%;
+}
+
+input[type='range'] {
+  width: 30%;
+  margin-left: 5%;
+  margin-top: 3%;
+  -webkit-appearance: none;
+  background:rgb(150, 148, 148);
+}
+
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  background:rgb(255, 0, 0);
+  height: 15px;
+  width: 15px;
+}
+
+.Individ5 label {
+  margin-left: 2%;
+  font-size: 150%;
+}
+
+.values {
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.values button {
+  margin-right: 1%;
+  width: 5%;
+  background-color: deepskyblue;
+  transition: 0.3s;
+}
+
+.values button:hover {
+  background-color: mediumspringgreen;
+}
+
+.Individ6 {
+  margin-top: 3%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  padding-top: 2%;
+  width: 50%;
+  background: rgb(220, 143, 20);
+  box-shadow: 0 -150px 70px -120px teal inset,
+              0 -220px 70px -120px rgb(50, 205, 140) inset,
+              0 -280px 70px -120px gold inset;
+  border-radius: 30px;
+  border: 10px solid rgb(21, 21, 21);
+  animation: background 8s infinite alternate;
+  padding-bottom: 2%;
+}
+
+@keyframes background {
+  50% {
+    background: rgb(0, 165, 211);
+    box-shadow: 0 -140px 70px -120px mediumorchid inset,
+                0 -210px 70px -120px teal inset,
+                0 -280px 70px -120px plum inset;
+  }
+}
+
+.Individ6 h3 {
+  color: black;
+  margin-bottom: 2%;
+  margin-left: 5%;
+}
+
+td {
+  width: 10%;
+  background-color: white;
+}
+
+table {
+  width: 50%;
+  background-color: white;
+}
+
+table {
+  margin-left: 5%;
+  border: 3px solid black;
+  padding: 2%;
+}
+
+.start {
+  margin-left: 5%;
+  margin-top: 5%;
+  width: 19%;
+  background-color: lime;
+}
+
+.innertd1 {
+  background-color: red;
+}
+
+.innertd2 {
+  background-color: orange;
+}
+
+.innertd3 {
+  background-color: yellow;
+}
+
+.innertd4 {
+  background-color: green;
+}
+
+.innertd5 {
+  background-color: #0acffe;
+}
+
+.innertd6 {
+  background-color: blue;
+}
+
+.innertd7 {
+  background-color: purple;
+}
+
+.Individ7 {
+  margin-top: 9%;
+  width: auto;
+  height: 400px;
+  background-image: url('https://images.unsplash.com/photo-1682007049179-ea0223283a90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2064&q=80');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  color: white;
+  border-top: 5px solid black;
+}
+
+.Individ7 div {
+  margin-left: 5%;
+  margin-top: 1.5%;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.Individ7 input {
+  width: 45%;
+  margin-top: 1%;
+  padding: 0.5%;
+}
+
+.get {
+  margin-top: 2%;
+  width: 15%;
+  background-color: orangered;
+  color: white;
+  border-color: orangered;
+  box-shadow: 5px 5px 10px rgb(23, 23, 23);
+  padding: 1%;
+}
+
+.MyButton {
+  margin-top: 2%;
+  width: 13%;
+  background-color: rgb(110, 110, 190);
+  color: white;
+  border-color: rgb(110, 110, 190);
+  box-shadow: 5px 5px 10px rgb(23, 23, 23);
+  padding: 1%;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 90%;
+}
+
+.MyButton:hover {
+  background-color: rgb(54, 176, 180);
+}
