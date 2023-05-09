@@ -1,8 +1,7 @@
-import logo from './logo.svg';
+
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from 'react';
-import { ReactDOM } from 'react';
 import Tasks from './components/Tasks';
 import Portfolio from './components/Portfolio';
 import Titulnik from './components/Titulnik';

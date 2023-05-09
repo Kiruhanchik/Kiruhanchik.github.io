@@ -3,16 +3,6 @@
     padding: 0;
 } 
 
-.progress-bar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 10px;
-    background: var(--red);
-    transform-origin: 0%;
-}
-
 .Header {
     background-image: url('https://images.unsplash.com/photo-1604213410393-89f141bb96b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
     background-repeat: no-repeat;
@@ -142,6 +132,10 @@
     transition: 0.3s;
 }
 
+.Empty {
+    text-align: center;
+}
+
 .send:hover {
     background-color: #c8f10d;
     border-color: #c8f10d;
@@ -245,4 +239,164 @@ a:hover {
 .Footer label {
     font-size: 130%;
     margin-left: 45%;
+}
+
+@media (max-width: 770px) {
+    .Header h1 {
+        font-size: 250%;
+    }
+
+    .Header {
+        height: 120px;
+    }
+
+    .Part1 {
+        margin-top: 15%;
+    }
+
+    .Info h3 {
+        font-size: 95%;
+    }
+
+    .Info {
+        border-bottom: 1.5px solid rgb(6, 95, 3);
+    }
+
+    .Part1 img {
+        width: 21%;
+        margin-left: 6%;
+        box-shadow: 7px 5px 5px rgb(184, 184, 184);
+        transition: 0.3s;
+    }
+
+    .Label h2 {
+        font-size: 150%;
+        display: inline-block;
+        margin-top: 10%;
+        border-bottom: 2px solid black;
+        margin-bottom: 2%;
+        padding-bottom: 1%;
+    }
+
+    .Label {
+        margin-top: 9%;
+    }
+
+    .Part2 {
+        margin-top: 12%;
+        display: flex   ;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .Link {
+        background-color: grey;
+        text-decoration: none;
+        transition: 0.3s;
+        height: 38px;
+        width: 70%;
+        margin-bottom: 4%;
+        border: 1px solid black;
+        text-align: center;
+        font-size: larger;
+        color: aliceblue;
+        font-size: 140%;
+    }
+
+    .Part3 {
+        margin-top: 7%;
+        margin-left: 8%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 10%;
+        margin-right: 8%;
+    }
+
+    .Discript {
+        font-size: 150%;
+        margin-bottom: 10%;
+        text-align: center;
+    }
+
+    .left {
+        width: 90%;
+    }
+
+    .left select {
+        width: 50%;
+        padding: 1%;
+        background-color: rgb(226, 226, 226);
+    }
+
+    .aboutme {
+        padding: 1%;
+        width: 48%;
+        display: block;
+        background-color: rgb(226, 226, 226);
+        margin-bottom: 3%;
+    }
+
+    .work {
+        margin-top: 6%;
+        margin-bottom: 3%;
+    }
+    
+    .work p {
+        font-size: 130%;
+    }
+    
+    .work input {
+        margin: 0.5%;
+        width: 3%;
+    }
+    
+    .right {
+        width: 90%;
+        margin-top: 10%;
+        border: 4mm ridge green;
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+
+    .anketa {
+        text-align: center;
+    }
+
+    .Footer {
+        background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+        height: 90px;
+        border-top: 4px solid black;
+        flex-direction: row;
+        align-items: center;
+        display: flex;
+    }
+    
+    .Nets img {
+        width: 20%;
+        margin-left: 5%;
+    }
+    
+    .Nets {
+        width: 50%;
+        align-items: center;
+        margin-left: 5%;
+    }
+    
+    .mail {
+        color: black;
+        font-size: 90%;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+    
+    a:hover {
+        border-bottom: 1px solid black;
+    }
+    
+    .Footer label {
+        font-size: 90%;
+        margin-left: 10%;
+    }
 }

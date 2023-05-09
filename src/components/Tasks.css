@@ -394,3 +394,141 @@ table {
 .MyButton:hover {
   background-color: rgb(54, 176, 180);
 }
+
+@media (max-width: 770px) {
+  .Individ1 {
+    width: 80%;
+    margin-bottom: 10%;
+  }
+
+  .Individ1 h3 {
+    font-size: 100%;
+    margin-bottom: 3%;
+  }
+
+  .Individ1 input {
+    width: 40%;
+  }
+
+  .Individ1 button {
+    width: 40%;
+  }
+
+  .Individ2 {
+    width: 80%;
+    margin-bottom: 10%;
+  }
+
+  .Individ2 h3 {
+    font-size: 100%;
+    margin-bottom: 3%;
+  }
+
+  .Individ2 input {
+    width: 40%;
+  }
+
+  .Individ2 button {
+    width: 40%;
+  }
+
+  .Individ3 {
+    width: 80%;
+    margin-bottom: 10%;
+  }
+
+  .Individ3 h3 {
+    font-size: 100%;
+    margin-bottom: 3%;
+  }
+
+  .Individ3 input {
+    width: 40%;
+  }
+
+  .Individ3 button {
+    width: 45%;
+  }
+
+  .Individ4 h3 {
+    font-size: 100%;
+    margin-bottom: 3%;
+  }
+
+  .Individ4 p {
+    width: 70%;
+  }
+
+  .operations {
+    grid-template-columns: 10% 10% 10% 10%;
+  }
+
+  .operations button {
+    width: 100%;
+  }
+
+  .Individ5 {
+    width: 80%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+  }
+
+  .Individ5 h3 {
+    font-size: 100%;
+    margin-bottom: 3%;
+  }
+
+  .Individ5 input {
+    width: 40%;
+  }
+
+  .Individ5 button {
+    width: 7%;
+  }
+
+  .Individ6 {
+    width: 80%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+  }
+
+  .Individ6 h3 {
+    font-size: 100%;
+    margin-bottom: 3%;
+  }
+
+  .Individ6 button {
+    width: 25%;
+  }
+
+  .Individ7 {
+    height: 280px;
+    background-size: auto;
+  }
+
+  .Individ7 h2 {
+    font-size: 110%;
+  }
+
+  .Individ7 h3 {
+    font-size: 90%;
+  }
+
+  .Individ7 input {
+    width: 50%;
+    margin-top: 3%;
+    padding: 0.5%;
+  }
+
+  .get {
+    font-size: 80%;
+    width: 50%;
+    margin-top: 5%;
+  }
+
+  .MyButton {
+    font-size: 80%;
+    width: 30%;
+    margin-top: 5%;
+  }
+}

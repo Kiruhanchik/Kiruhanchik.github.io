@@ -48,13 +48,19 @@ const Portfolio = () => {
                 <p style={{color: 'green'}} className='anketa'><b>{job}</b></p>
             </>
         )
+    } else {
+        return (
+            <>
+                <p className='Empty'><b>Пусто :(</b></p>
+            </>
+        )
     }
   }
 
   return (
     <div className='Portfolio'>
         <div className='Header'>
-            <h1 class='animate__animated animate__pulse'>Моё резюме</h1> 
+            <h1 className='animate__animated animate__pulse'>Моё резюме</h1> 
         </div> 
         <div className='Main'> 
             <div className='Part1'>
@@ -133,14 +139,15 @@ const Portfolio = () => {
                             if (education == '') {
                                 setBorderEducation({border: '0.5px solid red'});
                             };
-                        }
+                        } else {
+                            setShow(true);
+                        };
                         if (education !== 'Высшее' || education !== 'высшее') {
                             setJob('Извини! Ты не принят')
                         };
                         if (education == 'Высшее' || education == 'высшее'){
                             setJob('Поздравляю! Ты принят')
                         };
-                        setShow(true);
                     }}>Отправить на проверку</button>
                     <button onClick={() => {
                         setName('');
